@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "agent_id": {
+      "type": "string",
+      "enum": [
+        "arch",
+        "scout",
+        "reed",
+        "vera",
+        "mo",
+        "sage"
+      ]
+    },
+    "module_number": {
+      "type": "number"
+    },
+    "phase": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string",
+      "enum": [
+        "student-initiated",
+        "module-gate",
+        "milestone",
+        "scheduled",
+        "escalation"
+      ]
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outcome": {
+      "type": "string"
+    },
+    "follow_up_required": {
+      "type": "boolean"
+    },
+    "knowles_principle_activated": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}
