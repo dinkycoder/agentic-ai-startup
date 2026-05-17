@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icp": {
+      "type": "string"
+    },
+    "problem_statement": {
+      "type": "string"
+    },
+    "market_hypothesis": {
+      "type": "string"
+    },
+    "current_mrr": {
+      "type": "number"
+    },
+    "user_count": {
+      "type": "number"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "deployed_url": {
+      "type": "string"
+    },
+    "pitch_deck_url": {
+      "type": "string"
+    },
+    "moat_statement": {
+      "type": "string"
+    },
+    "version": {
+      "type": "number"
+    },
+    "pivot_history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}
