@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "module_number": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "yc_integration": {
+      "type": "string"
+    },
+    "technical_output": {
+      "type": "string"
+    },
+    "business_output": {
+      "type": "string"
+    },
+    "primary_agents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gate_criteria": {
+      "type": "string"
+    },
+    "knowles_principle": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "locked",
+        "active",
+        "complete"
+      ]
+    }
+  }
+}
