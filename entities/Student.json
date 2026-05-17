@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "cohort_id": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "pre-program",
+        "phase-1",
+        "phase-2",
+        "phase-3",
+        "phase-4",
+        "graduated"
+      ]
+    },
+    "current_module": {
+      "type": "number"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "string"
+    },
+    "icp": {
+      "type": "string"
+    },
+    "problem_hypothesis": {
+      "type": "string"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "deployed_url": {
+      "type": "string"
+    },
+    "vc_readiness_score": {
+      "type": "number"
+    },
+    "agent_interaction_count": {
+      "type": "number"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
