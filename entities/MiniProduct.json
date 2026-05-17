@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "module_number": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "deployed_url": {
+      "type": "string"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "market_hypothesis": {
+      "type": "string"
+    },
+    "user_feedback": {
+      "type": "string"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "shipped_date": {
+      "type": "string"
+    }
+  }
+}
