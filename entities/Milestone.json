@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "arch_signoff": {
+      "type": "boolean"
+    },
+    "scout_signoff": {
+      "type": "boolean"
+    },
+    "reed_signoff": {
+      "type": "boolean"
+    },
+    "vera_signoff": {
+      "type": "boolean"
+    },
+    "mo_signoff": {
+      "type": "boolean"
+    },
+    "sage_signoff": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "in-review",
+        "passed",
+        "failed"
+      ]
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "date_passed": {
+      "type": "string"
+    }
+  }
+}
